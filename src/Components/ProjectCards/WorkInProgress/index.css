@@ -1,0 +1,8 @@
+.workInProgress__Blank{
+    box-shadow: 2px 2px 2px rgb(167, 167, 167);
+    border-radius: 25px;
+    background-color: #fff;
+    height: 588px;
+    width: 316px;
+    z-index: 0;
+}

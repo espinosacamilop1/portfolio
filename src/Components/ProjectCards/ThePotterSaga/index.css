@@ -1,0 +1,133 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.thePotterSaga-image{
+  background-image: url('../../../my-images/harry-potter-saga.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width:350px;
+}
+
+.thePotterSaga-back{
+    background-color:khaki;
+    height: 200px;
+    width: 350px;
+}
+
+.thePotterSaga-back h3{
+  background-color: khaki;
+  margin-bottom: 0;
+}
+
+.thePotterSaga-a-tag{
+  background-color: transparent;
+  color: #111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
+.thePotterSaga-title{
+  padding-top: 40%;
+  color: #00ffc8;
+}
+.thePotterSaga-title > p{
+  color: #00ffc8;
+}
+
+.thePotterSaga-description-p{
+  background-color: khaki;
+  color: #111818;
+  font-size: 12px;
+  margin-top: 1%;
+}
+
+.thePotterSaga-lower-deets{
+  margin-top: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.thePotterSaga-lower-deets{
+  margin-top: -7%;
+  background-color: khaki;
+  height: 53px;
+}
+
+.thePotterSaga-duration {
+  background-color: khaki;
+  margin-top: 14%;
+  margin-left: 0;
+  margin-bottom:5%;
+}
+
+.thePotterSaga-duration > h4{
+  background-color: khaki;
+  color: #111818;
+  margin-bottom:5%;
+  margin-top:0;
+  font-size: 12px;
+}
+
+.thePotterSaga-duration section{
+  color: #111818;
+  background-color: khaki;
+}
+
+
+
+
+.thePotterSaga-tool-section{
+  background-color: khaki;
+  margin-top: 2.5vh;
+}
+
+.thePotterSaga-tool-section > *{
+  background-color: khaki;
+}
+
+.thePotterSaga-tool-section > * > * {
+  background-color: khaki;
+  height: 50px;
+}
+.thePotterSaga-tool-section > h4{
+  margin-bottom: 2%;
+  color:#111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.thePotterSaga-tool-list{
+  background-color: khaki;
+  height: 50px;
+  width: 168px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icon-styles{
+  margin-top:1%;
+  height:22px;
+}

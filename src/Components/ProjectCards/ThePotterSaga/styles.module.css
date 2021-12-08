@@ -1,0 +1,24 @@
+.c {
+    margin-top: 150%;
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    height: 200px;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+  
+
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+  }
+  

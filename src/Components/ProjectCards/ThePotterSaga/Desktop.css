@@ -1,0 +1,125 @@
+.thePotterSaga__mainContainer > * {
+    background-color: #fff;
+}
+
+.thePotterSaga__mainContainer{
+    box-shadow: 2px 2px 2px rgb(167, 167, 167);
+    border-radius: 25px;
+    background-color: #fff;
+    height: 588px;
+    width: 316px;
+    z-index: 0;
+}
+
+.thePotterSaga__ShapeGradient{
+    background: linear-gradient(170deg, rgba(250,208,69,1) 0%, rgba(255,255,255,1) 100%);
+    height: 250px;
+    width: 316px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.cut-1 {
+    background: #fff;
+    position:absolute;
+    top: 170px;
+    left: -223px;
+    width: 700px;
+    height: 300px;
+    transform-origin: center top;
+    transform: rotate(57deg);
+    z-index: -1;
+  }
+  .cut-2 {
+    background: #fff;
+    position:absolute;
+    top: 170px;
+    left: -159px;
+    width: 700px;
+    height: 300px;
+    transform-origin: center top;
+    transform: rotate(301deg);
+    z-index: -1;
+  }
+
+
+
+.thePotterSaga__SampleImage{
+    background-color: transparent;
+    height: 135px;
+    width: 185px;
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+
+.thePotterSaga__title{
+    margin: 0;
+    margin-top: 11px;
+    top: 0;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.thePotterSaga__description{    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.thePotterSaga__tools > *{
+    background-color: #fff;
+}
+
+.thePotterSaga__tools{
+    margin: 0;
+
+}
+
+.thePotterSaga__toolTitle{
+    margin-top: 100px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 300;
+    text-decoration: underline 1px;
+    text-underline-offset: 2px;
+}
+
+.thePotterSaga__toolIcons{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.thePotterSaga__toolIcons > * {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 40px;
+    background-color: #fff;
+}
+
+.thePotterSaga__demoLink{
+    display: flex;
+    justify-content: center;
+}
+
+.thePotterSaga__demoButton{
+    height: 37px;
+    width: 121px;
+    background-color: #479e71;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    margin-top:15px;
+}

@@ -1,0 +1,149 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.igClone-image{
+  background-image: url('../../../my-images/igClone.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width:350px;
+}
+
+.igClone-back{
+    background-color: #bebcbc;
+    height: 200px;
+    width: 350px;
+}
+
+.igClone-back h3{
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.igClone-a-tag{
+  background-color: transparent;
+  color: #111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
+.igClone-title{
+  padding-top: 41%;
+  color: #111818;
+}
+ .igClone-title > p{
+   margin-top: 0;
+   font-size: 14px;
+   background-color: transparent ;
+   color: #111818;
+ }
+
+.igClone-description-p{
+  background-color: transparent;
+  color: #111818;
+  font-size: 12px;
+  margin-top: 1%;
+}
+
+.igClone-lower-deets{
+  margin-top: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.igClone-lower-deets{
+  margin-top: -7%;
+  background-color: #bebcbc;
+  height: 53px;
+}
+
+.igClone-duration {
+  background-color: #bebcbc;
+  margin-top: 14%;
+  margin-left: 0;
+  margin-bottom:5%;
+}
+
+.igClone-duration > h4{
+  background-color: #bebcbc;
+  color: #111818;
+  margin-bottom:5%;
+  margin-top:0;
+  font-size: 12px;
+}
+
+.igClone-duration section{
+  color: #111818;
+  background-color: #bebcbc;
+}
+
+
+
+
+.igClone-tool-section{
+  background-color: transparent;
+  margin: 0;
+}
+
+.igClone-tool-section > *{
+  background-color: transparent;
+}
+
+.igClone-tool-section > * > * {
+  background-color: transparent;
+  height: 50px;
+}
+.igClone-tool-section > h4{
+  margin-bottom: 2%;
+  color:#111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.igClone-tool-list{
+  background-color: #bebcbc;
+  height: 40px;
+  width: 168px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icon-styles{
+  margin-top:1%;
+  height:22px;
+}
+
+.live_styles_phone{
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px;
+  border: 1px solid white;
+  margin-right: 15px;
+  background-color: transparent;
+}
+
+
+
+

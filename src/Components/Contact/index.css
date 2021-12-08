@@ -1,0 +1,111 @@
+.higher-div{
+    margin-top: 25%;
+    margin-left: 0;
+    height: 90vh;
+}
+
+.contact-message{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-me-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+
+}
+
+.input{
+    margin-top: 15%;
+    font-size: 24px;
+    border:0;
+    border-bottom: 1px solid #2E704E;
+    width: 100%;
+
+}
+
+.message-input{
+    margin-top: 7%;
+    height: 250px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+    resize: none;
+    border: 1px solid #2E704E;
+}
+
+
+
+.submit-btn{
+    margin-top: 5%;
+}
+
+@media (max-width: 30em) {
+
+
+}
+
+
+
+@media (min-width:65em) {
+    .higher-div{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 15%;
+    }
+    .contact-message{
+        font-size: 24px;
+        width: 40%;
+    }
+    .contact-me-form{
+        margin-top: 0;
+        width: 70%;
+    }
+    .input{
+        margin-top: 15%;
+        width: 100%;
+    }
+    .name-input {
+        margin-top: -15%;
+    }
+    .message-input{
+        border: 1px solid #2E704E;
+    }
+
+    .message-input:active{
+        border-color: #2E704E;
+    }
+
+    .submit-btn{
+        margin-top: 5%;
+    }
+
+    .contact-message{
+        width: 100%;
+    }
+
+    .name-input{
+        margin-top: 7%;
+    }
+
+}
+
+@media (min-width: 31em) and (max-width:64em){
+    .contact-message{
+        font-size: 24px;
+        margin-left: 4%;
+    }
+    .contact-me-form{
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 4%;
+    }
+    .input{
+        margin-top: 20%;
+    }
+    .submit-btn{
+        margin-top: 5%;
+    }
+}

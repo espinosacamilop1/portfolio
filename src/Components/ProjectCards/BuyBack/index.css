@@ -1,0 +1,150 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+
+.buyback-image{
+    background-image: url('../../../my-images/BuyBack.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:350px;
+    
+
+}
+
+
+
+.title{
+  background-color: transparent;
+  height: 200px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  color: #BABABC;
+  padding-top: 42%;
+}
+.title > p{
+  margin-top: 0;
+  font-size: 14px;
+  background-color: transparent ;
+}
+
+
+.buyback-back{
+    background-color: #F57C01;
+    height: 200px;
+    width: 350px;
+}
+
+.buyback-back h3{
+  background-color: transparent;
+  color: #EDEEF0;
+  margin-bottom:-1%;
+}
+
+.a-tag{
+  background-color: transparent;
+  color: #EDEEF0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.description-p{
+  background-color: transparent;
+  color: #EDEEF0;
+  font-size: 12px;
+}
+
+.lower-deets{
+  margin-top: -2%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:53px;
+  background-color: #F57C01;
+}
+
+.duration  ,  section{
+  background-color: #2E704E;
+  margin-top: 0;
+  margin-left: 0;
+  color: #EDEEF0;
+  font-size: 10px;
+}
+
+.duration{
+  margin-top: 7%;
+}
+
+.duration > h4{
+  background-color: #F57C01;
+  margin-bottom:5%;
+  font-size: 12px;
+  margin-top: 0;
+ 
+}
+
+.duration > section{
+  margin-left: 3px;
+}
+
+.buyback__duration{
+  background-color: #F57C01;
+  margin-bottom:5%;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.buyback__duration > *{
+  background-color: #F57C01;
+  color: #EDEEF0;
+}
+
+.tool-section{
+  background-color: #F57C01;
+  width: 50%;
+}
+
+.tool-section > *{
+  background-color: #F57C01;
+}
+
+.tool-section > * > * {
+  background-color: #F57C01;
+  height: 50px;
+}
+.tool-section > h4{
+  margin-bottom: 2%;
+  color:#EDEEF0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-top: 0;
+}
+
+.tool-list{
+  background-color: #F57C01;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+

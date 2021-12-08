@@ -1,0 +1,134 @@
+.container-flex{
+    height: 100vh;
+}
+
+.tablet-styles{
+    display: flex;
+
+}
+
+.container-flex > h3{
+    margin-top: 30%;
+    text-align: center;
+    color: #111818;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: underline 2px;
+    text-decoration-color: #2E704E;
+    text-underline-offset: 2px;
+}
+
+
+.border-style {
+    border-radius: 50px !important;
+    margin: 0;
+}
+
+.styles_c__2JQH2{
+    /* margin-top: 20vh; */
+}
+
+@media (min-width: 65em) {
+
+    .styles_c__1wf9-{
+        display:none;
+    }
+    
+    .styles_c__2JQH2{
+        display:none;
+    }
+
+    .styles_c__6saF9{
+        display:none;
+    }
+    .styles_c__3cqBa{
+        display:none;
+    }
+
+    .demo__style{
+        font-size: 18px;
+        padding: 4px;
+        border: 1px solid rgb(255, 254, 254);
+        border-radius: 3px;
+    }
+    
+
+
+    .container-flex > h3{
+        margin-top: 10%;
+    }
+    .phone-card{
+        display: none;
+    }
+
+
+    /* ***********************DO NOT REMOVE THIS(**************************/
+    .tablet-styles{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2em;
+        align-content: stretch;
+        margin-top: 5%;
+    }
+   
+    /* ***********************DO NOT REMOVE THIS(**************************/
+
+    .footer-section{
+        margin-top: 10%;
+    }
+}
+
+
+
+@media (max-width: 30em) {
+    .tablet-styles{
+        display: none;
+    }
+    .styles_c__1wf9-{
+        /* margin-top: 52vh; */
+        margin-bottom: -23vh;
+    }
+    
+}
+
+
+@media (min-width: 31em) and (max-width:48em){
+    
+    .phone-card{
+        display: none;
+    }
+    .tablet-styles{
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        width: 95vw;
+    }
+    .footer-section{
+        margin-top: 45%;
+    }
+    
+}
+
+@media (min-width: 49em) and (max-width: 64em) {
+
+
+    
+    .container-display{
+        display: none;
+    }
+    .phone-card{
+        display: none;
+    }
+    .tablet-styles{
+        display: flex;
+        margin-top: 10%;
+    }
+
+
+    .footer-position{
+        position: absolute;
+        bottom: 0;
+        width: 85%;
+    }
+}

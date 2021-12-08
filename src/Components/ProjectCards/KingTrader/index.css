@@ -1,0 +1,140 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.kingtrader-image{
+  background-image: url('../../../my-images/KingTrader.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width:350px;
+}
+
+.kingtrader-back{
+    background-color: #2E704E;
+    height: 200px;
+    width: 350px;
+}
+
+.kingtrader-back h3{
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.kt-a-tag{
+  background-color: transparent;
+  color: #111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
+.kingtrader-title{
+  padding-top: 41%;
+  color: #00a851;
+
+}
+ .kingtrader-title > p{
+   margin-top: 0;
+   font-size: 14px;
+   background-color: transparent ;
+ }
+
+.kt-description-p{
+  background-color: transparent;
+  color: #111818;
+  font-size: 12px;
+  margin-top: 1%;
+}
+
+.kt-lower-deets{
+  margin-top: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.kt-lower-deets{
+  margin-top: -7%;
+  background-color: #2E704E;
+  height: 53px;
+}
+
+.kt-duration {
+  background-color: #2E704E;
+  margin-top: 14%;
+  margin-left: 0;
+  margin-bottom:5%;
+}
+
+.kt-duration > h4{
+  background-color: #2E704E;
+  color: #111818;
+  margin-bottom:5%;
+  margin-top:0;
+  font-size: 12px;
+}
+
+.kt-duration section{
+  color: #111818;
+  background-color: #2E704E;
+}
+
+
+
+
+.kt-tool-section{
+  background-color: #2E704E;
+}
+
+.kt-tool-section > *{
+  background-color: #2E704E;
+}
+
+.kt-tool-section > * > * {
+  background-color: #2E704E;
+  height: 50px;
+}
+.kt-tool-section > h4{
+  margin-bottom: 2%;
+  color:#111818;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.kt-tool-list{
+  background-color: #2E704E;
+  height: 50px;
+  width: 168px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icon-styles{
+  margin-top:1%;
+  height:22px;
+}
+
+.header__stylePhone{
+  display: flex;
+  justify-content: space-between;
+}
