@@ -1,0 +1,96 @@
+.pt__mainContainer > *{
+    background-color: #fff;
+}
+
+.pt__mainContainer{
+    box-shadow: 2px 2px 2px rgb(167, 167, 167);
+    border-radius: 25px;
+    background-color: #fff;
+    height: 588px;
+    width: 316px;
+    z-index: 0;
+}
+
+.pt__shapeGradient{
+    margin: 0;
+    background: linear-gradient(170deg, rgb(115, 158, 184) 0%, rgba(255,255,255,1) 100%);
+    height: 209px;
+    width: 316px;
+    border-radius: 25px 25px 100% 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.pt__SampleImage{
+    background-color: transparent;
+    height: 135px;
+    width: 185px;
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.pt__title{
+    margin: 0;
+    margin-top: 11px;
+    top: 0;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.pt__description{    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.pt__tools > *{
+    background-color: #fff;
+}
+
+.pt__tools{
+    margin: 0;
+}
+
+.pt__toolTitle{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 300;
+    text-decoration: underline 1px;
+    text-underline-offset: 2px;
+}
+
+.pt__toolIcons{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pt__toolIcons > * {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 40px;
+    background-color: #fff;
+}
+
+.pt__demoLink{
+    display: flex;
+    justify-content: center;
+}
+
+.pt__demoButton{
+    height: 37px;
+    width: 121px;
+    background-color: #479e71;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    margin-top:15px;
+}

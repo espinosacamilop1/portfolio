@@ -7,6 +7,7 @@ import ProfileImage from '../../my-images/profile.png'
 import {Link} from 'react-router-dom'
 import BuyBack from '../ProjectCards/BuyBack/Desktop'
 import InstagramClone from '../ProjectCards/InstagramClone/Desktop'
+import Reveal from 'react-reveal/Reveal';
 
 
 
@@ -17,14 +18,19 @@ export default function Home() {
         <div className="main-container">
             <NavBar/>
        
+            <Reveal>
                 <div className="sub-container">
+                
                     <div className="first-container">
                         <h2>Hello!</h2>
-                        <h3>I'm Camilo Espinosa a<span className='fs-color'>Full-Stack Developer</span> located in Miami FL.</h3>
+                        <h3 >I'm Camilo Espinosa 
+                        a<span className="fs-style">Full-Stack Developer</span>located 
+                        in Miami FL.</h3>
                     </div>
                     <div className='image-container'>
                         <img className="profile-image" src={ProfileImage} alt='profile'></img>
                     </div>  
+                
                 </div>
                 <div className='last-container'>
                     <p>Must haves are a laptop, a suitcase that is always ready for spontaneous travel and lots of Cuban coffee.</p>
@@ -42,6 +48,7 @@ export default function Home() {
                     <BuyBack/>
                 </div>
             </div>
+            </Reveal>
              <Footer/>
         </div>
     )

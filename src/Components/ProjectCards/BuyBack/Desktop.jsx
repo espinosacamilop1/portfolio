@@ -1,5 +1,6 @@
 import React from 'react'
 import './Desktop.css'
+import './animations.css'
 import BuyBack from '../../../my-images/BuyBackMBP.svg'
 
 

@@ -4,14 +4,18 @@ import Footer from '../Footer'
 import BuyBackCard from "../ProjectCards/BuyBack"
 import KingTraderCard from '../ProjectCards/KingTrader'
 import ThePotterSagaCard from '../ProjectCards/ThePotterSaga'
- import InstagramCloneCard from '../ProjectCards/InstagramClone'
+import InstagramCloneCard from '../ProjectCards/InstagramClone'
+import PackageTrackerCard from "../ProjectCards/ThePackageTracker";
 import './index.css'
+
+import Reveal from 'react-reveal/Reveal';
+
 
 import BuyBack from '../ProjectCards/BuyBack/Desktop'
 import KingTrader from '../ProjectCards/KingTrader/Desktop'
 import ThePotterSaga from '../ProjectCards/ThePotterSaga/Desktop'
 import InstagramClone from '../ProjectCards/InstagramClone/Desktop'
-import WorkInProgress from '../ProjectCards/WorkInProgress'
+import PackageTracker from '../ProjectCards/ThePackageTracker/Desktop'
 
 export default function App() {
 
@@ -21,6 +25,9 @@ export default function App() {
         <div className="container-flex">
             <h3>Work</h3>
             <div className='container-display'>
+                <div>
+                    <PackageTrackerCard className='phone-card'/>
+                </div>
                 <div>
                     <BuyBackCard className='phone-card'/>
                 </div>
@@ -34,15 +41,15 @@ export default function App() {
                     <ThePotterSagaCard className='phone-card'/>
                 </div>
             </div>
+            <Reveal>
             <div className='tablet-styles'>
+                <PackageTracker/>
                 <BuyBack/>
                 <KingTrader/>
                 <InstagramClone/>
                 <ThePotterSaga/>
-
-
             </div>
-            
+            </Reveal>
         <div className='footer-position'>
 
             <Footer/>

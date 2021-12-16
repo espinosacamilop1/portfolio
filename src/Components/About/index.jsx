@@ -3,6 +3,8 @@ import NavBar from '../NavBar'
 import Footer from '../Footer'
 import ProfileImage from '../../my-images/profile.png'
 import './index.css'
+import Reveal from 'react-reveal/Reveal';
+
 
 import Html from '../../my-images/html.png'
 import Css from '../../my-images/css.png'
@@ -19,6 +21,7 @@ export default function About() {
     return (
         <div>
             <NavBar/>
+            <Reveal>
             <div  className="main-container about-container">
                 <div className="desktop-position">
                   <div className="image-div">
@@ -29,7 +32,7 @@ export default function About() {
                             Hi I'm Camilo Espinonsa...
                         </h3>
                         <p>
-                        I am a<span className='fs-color'>Full Stack Web Developer</span> located in Miami, who has  been interested 
+                        I am a<span className='fs-color'>Full Stack Web Developer</span>located in Miami, who has  been interested 
                         in programming since High School where I joined the Robotics Club and programmed 
                         the robot that got to state semi-finals.  Experienced in the most modern web development 
                         technologies. Focused on writing clean, robust and reusable code. Graduated from Ironhack 
@@ -88,6 +91,7 @@ export default function About() {
                 </div>
 
             </div>
+            </Reveal>
           <Footer/>
         </div>
     )
