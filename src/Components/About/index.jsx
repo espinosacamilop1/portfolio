@@ -3,7 +3,6 @@ import NavBar from '../NavBar'
 import Footer from '../Footer'
 import ProfileImage from '../../my-images/profile.png'
 import './index.css'
-import Reveal from 'react-reveal/Reveal';
 
 
 import Html from '../../my-images/html.png'
@@ -21,7 +20,6 @@ export default function About() {
     return (
         <div>
             <NavBar/>
-            <Reveal>
             <div  className="main-container about-container">
                 <div className="desktop-position">
                   <div className="image-div">
@@ -91,7 +89,6 @@ export default function About() {
                 </div>
 
             </div>
-            </Reveal>
           <Footer/>
         </div>
     )

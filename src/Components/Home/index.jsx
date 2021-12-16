@@ -7,7 +7,6 @@ import ProfileImage from '../../my-images/profile.png'
 import {Link} from 'react-router-dom'
 import BuyBack from '../ProjectCards/BuyBack/Desktop'
 import InstagramClone from '../ProjectCards/InstagramClone/Desktop'
-import Reveal from 'react-reveal/Reveal';
 
 
 
@@ -18,7 +17,7 @@ export default function Home() {
         <div className="main-container">
             <NavBar/>
        
-            <Reveal>
+
                 <div className="sub-container">
                 
                     <div className="first-container">
@@ -48,7 +47,6 @@ export default function Home() {
                     <BuyBack/>
                 </div>
             </div>
-            </Reveal>
              <Footer/>
         </div>
     )

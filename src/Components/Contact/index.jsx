@@ -3,7 +3,6 @@ import NavBar from '../NavBar'
 import emailjs from 'emailjs-com';
 import './index.css'
 
-import Reveal from 'react-reveal/Reveal';
 
 
 export default function Contact() {
@@ -24,7 +23,6 @@ export default function Contact() {
     return (
         <div>
             <NavBar/>
-            <Reveal>
             <div className="higher-div">
                 <div className='contact-message'>
                     <p>If you have any project ideas or questions don't hesitate to contact me.</p>
@@ -39,7 +37,6 @@ export default function Contact() {
                     <input className='contact-btn submit-btn' type="submit" value="Send" />
                 </form>
             </div>
-        </Reveal>
         </div>
     )
 }

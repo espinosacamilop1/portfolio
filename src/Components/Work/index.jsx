@@ -8,7 +8,6 @@ import InstagramCloneCard from '../ProjectCards/InstagramClone'
 import PackageTrackerCard from "../ProjectCards/ThePackageTracker";
 import './index.css'
 
-import Reveal from 'react-reveal/Reveal';
 
 
 import BuyBack from '../ProjectCards/BuyBack/Desktop'
@@ -41,7 +40,6 @@ export default function App() {
                     <ThePotterSagaCard className='phone-card'/>
                 </div>
             </div>
-            <Reveal>
             <div className='tablet-styles'>
                 <PackageTracker/>
                 <BuyBack/>
@@ -49,7 +47,6 @@ export default function App() {
                 <InstagramClone/>
                 <ThePotterSaga/>
             </div>
-            </Reveal>
         <div className='footer-position'>
 
             <Footer/>
