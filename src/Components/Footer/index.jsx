@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import linkedIn from '../../my-images/linkedin.png'
 import Github from '../../my-images/github.png'
-import Resume from '../../my-images/Camilo-Espinosa-Resume.pdf'
+import Resume from '../../my-images/Camilo-Espinosa-Resume-Jan-22.pdf'
 import './index.css'
 export default function Footer() {
     return (
